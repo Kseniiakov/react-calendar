@@ -7,8 +7,8 @@ class DaySection extends React.Component {
     render() {
         return (
             <section>
-                <h2>{this.props.dayWeek}</h2>
-                <div>{this.props.day}</div>
+                <h2 className="dayHeader">{this.props.dayWeek}</h2>
+                <div className="dayNumber">{this.props.day}</div>
             </section>
         )
     }
