@@ -1,6 +1,7 @@
 import React from "react";
-import DaySection from "./components/DaySection";
-import CalendarSection from "./components/CalendarSection"
+import './Calendar.css'
+import DaySection from "./DaySection";
+import CalendarSection from "./CalendarSection"
 
 const myDate = new Date();
 const daysWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
